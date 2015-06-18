@@ -1,8 +1,8 @@
 module.exports = (gulp) ->
   gulp.task 'assets:dev', ->
-    return gulp.src 'vendor/bower_components/bootstrap-sass/assets/fonts/**/*'
-      .pipe gulp.dest 'build/fonts'
+    return gulp.src 'assets/**/*'
+      .pipe gulp.dest 'build/'
 
   gulp.task 'assets:dist', ->
-    return gulp.src 'vendor/bower_components/bootstrap-sass/assets/fonts/**/*'
-      .pipe gulp.dest 'dist/fonts'
+    return gulp.src 'assets/**/*'
+      .pipe gulp.dest 'dist/'
