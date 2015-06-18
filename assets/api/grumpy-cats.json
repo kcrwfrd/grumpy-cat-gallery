@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "url": "/img/grumpy-cat-01.jpg",
+      "title": "Grumpy Cat 01"
+    },
+    {
+      "url": "/img/grumpy-cat-02.jpg",
+      "title": "Grumpy Cat 02"
+    },
+    {
+      "url": "/img/grumpy-cat-03.jpg",
+      "title": "Grumpy Cat 03"
+    },
+    {
+      "url": "/img/grumpy-cat-04.jpg",
+      "title": "Grumpy Cat 04"
+    },
+    {
+      "url": "/img/grumpy-cat-05.jpg",
+      "title": "Grumpy Cat 05"
+    },
+    {
+      "url": "/img/grumpy-cat-06.jpg",
+      "title": "Grumpy Cat 06"
+    }
+  ]
+}
