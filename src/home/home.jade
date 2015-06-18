@@ -1,3 +1,13 @@
 .container.text-center
-  h1 Home
-  p.lead Some stuff
+  .form-group
+    label Filter by Title
+    input.form-control(
+      type = "text"
+      ng-model = "state.search"
+      placeholder = "e.g., grumpy"
+      ng-disabled = "state.is_loading"
+      ng-change = "onSearch(state.search)"
+      ng-model-options="{debounce: 100}"
+    )
+
+  kc-gallery(images="images")
